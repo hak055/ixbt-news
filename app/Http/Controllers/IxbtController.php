@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\View\Compilers\BladeCompiler;
 use App\Ixbt;
 
 class IxbtController extends Controller

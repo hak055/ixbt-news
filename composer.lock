@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "00bcb8ad273623a6425459ec22239192",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2769,6 +2769,55 @@
                 "dump"
             ],
             "time": "2019-05-01T12:55:49+00:00"
+        },
+        {
+            "name": "thepinecode/blade-filters",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thepinecode/blade-filters.git",
+                "reference": "1b4a286aaefe814e46cef401ce3d5064aeca6eae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thepinecode/blade-filters/zipball/1b4a286aaefe814e46cef401ce3d5064aeca6eae",
+                "reference": "1b4a286aaefe814e46cef401ce3d5064aeca6eae",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.8.0"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pine\\BladeFilters\\BladeFiltersServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pine\\BladeFilters\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gergő D. Nagy",
+                    "email": "hello@iamgergo.com"
+                }
+            ],
+            "description": "Use filters easily in your blade templates.",
+            "time": "2019-05-27T08:41:35+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

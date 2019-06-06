@@ -14,7 +14,7 @@ class Ixbt extends Model
 		$data = [
                'title' => $array->title,
                'link' => $array->link,
-               'description' => strip_tags($array->description),
+               'description' => e($array->description),
                'author' => $array->author,
                'category' => $array->category,
                'pubDate' => $array->pubDate,
