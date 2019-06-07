@@ -14,7 +14,7 @@
 	      <small>Категория: {{$news->category}}/</small>     
 	    </div>
 	    <p class="mb-1">{!! html_entity_decode($news->description) !!}</p>
-	    <small>{{$news->pubDate}}</small>
+	    <small>{{substr($news->pubDate, 0, 17)}}</small>
 	    <small>Автор: {{$news->author}}</small>
 	  </a>
 	</div>
